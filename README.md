@@ -11,4 +11,6 @@ The video connector is a 5-pin DIN connector in the 180 degree layout. From the 
 
 ## Modem
 
-It looks like the terminal features a standard dial-up modem. The user can only input a phone number, no other settings are configurable. The terminal only supports pulse dialing. I was able to call NIST's telephone time service but do not know the connection speed.
+It looks like the terminal features a standard dial-up modem. The user can only input a phone number, no other settings are configurable. The terminal only supports pulse dialing. I was able to call NIST's telephone time service and it appears only 300 baud is supported.
+
+The phone number my unit is programmed to call is `543-0691`.
