@@ -14,3 +14,16 @@ The video connector is a 5-pin DIN connector in the 180 degree layout. From the 
 It looks like the terminal features a standard dial-up modem. The user can only input a phone number, no other settings are configurable. The terminal only supports pulse dialing. I was able to call NIST's telephone time service and it appears only 300 baud is supported.
 
 The phone number my unit is programmed to call is `543-0691`.
+
+## UI
+
+My terminal boots and instructs "press any key to continue". I can select options for dialing. There are two seemingly hardcoded options:
+
+```
+1 Dial HOMEBANKING
+2 Dial HOMEBANKING BACKUP
+```
+
+I can also select `3` to "Enter new information" or `4` for "Select display". Strangely we cannot seem to delete options 1 or 2, just update the number. If we create a new option with option `3` we can delete it by deleting the whole number field and then deleting the whole name to remove it from the menu.
+
+Strangely when I connect to HOMEBANKING, after connecting to a remote server the terminal sends a string: `ahomebank`.
